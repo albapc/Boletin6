@@ -6,21 +6,11 @@ public class Boletin6_3 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Tipos obxNumero = new Tipos();
+
         System.out.println("Introduce un número:");
         int n = sc.nextInt();
-
-        if (n > 0) {
-            System.out.println("+");
-        } else {
-            if (n < 0) {
-                System.out.println("-");
-            } else {
-                if (n == 0) {
-                    System.out.println("0");
-                }
-            }
-
-        }
+        obxNumero.setNumero(n);
+        obxNumero.calcularNumeros();
     }
-
 }
