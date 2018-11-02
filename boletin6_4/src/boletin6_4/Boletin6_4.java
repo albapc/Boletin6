@@ -6,8 +6,8 @@ public class Boletin6_4 {
 
     public static void main(String[] args) {
         String nomePersoa1, nomePersoa2;
-        Peso obxPersoa= new Peso();
-        
+        Peso obxPersoa = new Peso();
+
         String nome1 = JOptionPane.showInputDialog("Introduce o nome da primeira persoa:");
         nomePersoa1 = (nome1);
         obxPersoa.setNome1(nome1);
@@ -24,7 +24,7 @@ public class Boletin6_4 {
         obxPersoa.setPeso2(pesoPersoa2);
 
         System.out.println("Persoa con maior peso:");
-        
+
         obxPersoa.compararPesos();
-        }
     }
+}
