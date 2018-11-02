@@ -17,15 +17,7 @@ public class Boletin6_6 {
         System.out.println("Introduce o número de vendas anuais:");
         vendasAnuais = sc.nextInt();
         obxArtigo.setVendasAnuais(vendasAnuais);
-
-        if (vendasAnuais <= 100) {
-            System.out.println("Artigo de consumo baixo");
-        } else if (vendasAnuais > 100 && vendasAnuais <= 500) {
-            System.out.println("Artigo de consumo medio");
-        } else if (vendasAnuais > 500 && vendasAnuais <= 1000) {
-            System.out.println("Artigo de consumo alto");
-        } else if (vendasAnuais > 1000) {
-            System.out.println("Artigo de primeira necesidade");
-        }
+        
+        obxArtigo.calcularVendasAnuais();
     }
 }
