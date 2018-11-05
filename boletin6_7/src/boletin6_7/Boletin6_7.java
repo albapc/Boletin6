@@ -12,7 +12,7 @@ public class Boletin6_7 {
         Superficies figuras = new Superficies();
         
         System.out.println("***********CÁLCULO DE SUPERFICIES***********\n"
-                + "Elixe unha opción:\n1-> Cadrado\n2-> Triángulo\n3-> Círculo");
+                + "1-> Cadrado\n2-> Triángulo\n3-> Círculo\nElixe unha opción:");
         op= sc.nextInt();
         figuras.setOpcion(op);
         figuras.calcularSuperficies();
